@@ -1,6 +1,7 @@
 html {
     font-size: 16px;
-    background-color: rgb(202, 185, 139);
+    color: white;
+    background-color: rgb(26, 105, 170);
     text-align: center;
   }
   
@@ -17,7 +18,7 @@ html {
     height:100%;
     margin: auto;
     overflow: hidden;
-    background-color:rgb(146, 130, 94);
+    background-color: rgb(26, 105, 170);
 }
 
 .nav_bar  a {
@@ -38,8 +39,8 @@ html {
 }
 
 .banner {
-    height: 500px;
     margin-top: 59px;
+    height: 500px;
     width: 100%;
     display: flex;
 
@@ -55,6 +56,29 @@ html {
     font-size: 2rem;
     color: white;
     text-shadow: 2px 2px 5px black;
+}
 
-    
+.content{
+    width: 59%;
+    margin: auto;
+}
+
+.projects {
+    margin-top: 40px;
+    padding-top: 20px;
+    background-color: rgb(21, 131, 221);
+}
+.projects_container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+.project img {
+    height: 300px;
+}
+
+.project { 
+    margin: auto;
+    padding: 20px;
 }
